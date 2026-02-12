@@ -1,0 +1,7 @@
+vm_id,hourly_cost,cpu_cap,mem_cap,max_instances,vm_name
+0,0.92,5,16,5,Small
+1,2.89,11,26,5,Medium
+2,5.41,22,38,5,Large
+e
+3,6.08,29,62,10,XLarge
+4,8.52,36,96,10,2XLarge

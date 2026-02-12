@@ -1,0 +1,560 @@
+{
+  "tasks": [
+    {
+      "task_id": 0,
+      "revenue": 133.04,
+      "deadline": 7,
+      "priority": 1.0,
+      "min_service_level": 0.08,
+      "cpu_req": 5,
+      "mem_req": 18,
+      "duration": 3
+    },
+    {
+      "task_id": 1,
+      "revenue": 102.94,
+      "deadline": 8,
+      "priority": 1.5,
+      "min_service_level": 0.03,
+      "cpu_req": 4,
+      "mem_req": 14,
+      "duration": 1
+    },
+    {
+      "task_id": 2,
+      "revenue": 56.14,
+      "deadline": 6,
+      "priority": 1.5,
+      "min_service_level": 0.31,
+      "cpu_req": 5,
+      "mem_req": 9,
+      "duration": 2
+    },
+    {
+      "task_id": 3,
+      "revenue": 75.39,
+      "deadline": 11,
+      "priority": 1.0,
+      "min_service_level": 0.02,
+      "cpu_req": 6,
+      "mem_req": 15,
+      "duration": 1
+    },
+    {
+      "task_id": 4,
+      "revenue": 95.28,
+      "deadline": 5,
+      "priority": 1.0,
+      "min_service_level": 0.49,
+      "cpu_req": 5,
+      "mem_req": 19,
+      "duration": 3
+    },
+    {
+      "task_id": 5,
+      "revenue": 86.0,
+      "deadline": 5,
+      "priority": 1.0,
+      "min_service_level": 0.01,
+      "cpu_req": 2,
+      "mem_req": 6,
+      "duration": 1
+    },
+    {
+      "task_id": 6,
+      "revenue": 137.81,
+      "deadline": 10,
+      "priority": 1.0,
+      "min_service_level": 0.12,
+      "cpu_req": 2,
+      "mem_req": 31,
+      "duration": 2
+    },
+    {
+      "task_id": 7,
+      "revenue": 112.76,
+      "deadline": 10,
+      "priority": 1.0,
+      "min_service_level": 0.45,
+      "cpu_req": 5,
+      "mem_req": 18,
+      "duration": 3
+    },
+    {
+      "task_id": 8,
+      "revenue": 93.33,
+      "deadline": 7,
+      "priority": 1.0,
+      "min_service_level": 0.09,
+      "cpu_req": 5,
+      "mem_req": 21,
+      "duration": 2
+    },
+    {
+      "task_id": 9,
+      "revenue": 89.64,
+      "deadline": 5,
+      "priority": 1.0,
+      "min_service_level": 0.46,
+      "cpu_req": 3,
+      "mem_req": 29,
+      "duration": 2
+    },
+    {
+      "task_id": 10,
+      "revenue": 179.01,
+      "deadline": 5,
+      "priority": 1.0,
+      "min_service_level": 0.14,
+      "cpu_req": 7,
+      "mem_req": 26,
+      "duration": 1
+    },
+    {
+      "task_id": 11,
+      "revenue": 175.01,
+      "deadline": 10,
+      "priority": 1.0,
+      "min_service_level": 0.08,
+      "cpu_req": 6,
+      "mem_req": 27,
+      "duration": 2
+    },
+    {
+      "task_id": 12,
+      "revenue": 106.24,
+      "deadline": 12,
+      "priority": 1.0,
+      "min_service_level": 0.01,
+      "cpu_req": 2,
+      "mem_req": 10,
+      "duration": 1
+    },
+    {
+      "task_id": 13,
+      "revenue": 131.66,
+      "deadline": 7,
+      "priority": 2.0,
+      "min_service_level": 0.33,
+      "cpu_req": 4,
+      "mem_req": 20,
+      "duration": 3
+    },
+    {
+      "task_id": 14,
+      "revenue": 105.38,
+      "deadline": 2,
+      "priority": 1.0,
+      "min_service_level": 0.19,
+      "cpu_req": 5,
+      "mem_req": 10,
+      "duration": 1
+    },
+    {
+      "task_id": 15,
+      "revenue": 148.23,
+      "deadline": 8,
+      "priority": 1.0,
+      "min_service_level": 0.28,
+      "cpu_req": 7,
+      "mem_req": 27,
+      "duration": 1
+    },
+    {
+      "task_id": 16,
+      "revenue": 107.93,
+      "deadline": 3,
+      "priority": 1.5,
+      "min_service_level": 0.12,
+      "cpu_req": 4,
+      "mem_req": 8,
+      "duration": 3
+    },
+    {
+      "task_id": 17,
+      "revenue": 102.33,
+      "deadline": 12,
+      "priority": 1.0,
+      "min_service_level": 0.05,
+      "cpu_req": 7,
+      "mem_req": 10,
+      "duration": 3
+    },
+    {
+      "task_id": 18,
+      "revenue": 93.73,
+      "deadline": 5,
+      "priority": 1.0,
+      "min_service_level": 0.21,
+      "cpu_req": 2,
+      "mem_req": 23,
+      "duration": 1
+    },
+    {
+      "task_id": 19,
+      "revenue": 41.83,
+      "deadline": 11,
+      "priority": 1.5,
+      "min_service_level": 0.44,
+      "cpu_req": 4,
+      "mem_req": 7,
+      "duration": 1
+    }
+  ],
+  "vm_types": [
+    {
+      "vm_id": 0,
+      "hourly_cost": 0.92,
+      "cpu_cap": 5,
+      "mem_cap": 16,
+      "max_instances": 5,
+      "vm_name": "Small"
+    },
+    {
+      "vm_id": 1,
+      "hourly_cost": 2.89,
+      "cpu_cap": 11,
+      "mem_cap": 26,
+      "max_instances": 5,
+      "vm_name": "Medium"
+    },
+    {
+      "vm_id": 2,
+      "hourly_cost": 5.41,
+      "cpu_cap": 22,
+      "mem_cap": 38,
+      "max_instances": 5,
+      "vm_name": "Large"
+    }
+  ],
+  "system_config": {
+    "budget": 500.0,
+    "time_horizon": 12,
+    "num_tasks": 20,
+    "num_vm_types": 3
+  },
+  "metadata": {
+    "seed": 42,
+    "generated_at": "2026-02-12T19:29:27.015534"
+  }
+}"adline": 13,
+      "priority": 1.0,
+      "min_service_level": 0.08,
+      "cpu_req": 10,
+      "mem_req": 40,
+      "duration": 2
+    },
+    {
+      "task_id": 24,
+      "revenue": 158.52,
+      "deadline": 21,
+      "priority": 1.0,
+      "min_service_level": 0.12,
+      "cpu_req": 9,
+      "mem_req": 44,
+      "duration": 5
+    },
+    {
+      "task_id": 25,
+      "revenue": 98.81,
+      "deadline": 20,
+      "priority": 2.0,
+      "min_service_level": 0.13,
+      "cpu_req": 8,
+      "mem_req": 5,
+      "duration": 4
+    },
+    {
+      "task_id": 26,
+      "revenue": 39.78,
+      "deadline": 9,
+      "priority": 1.0,
+      "min_service_level": 0.32,
+      "cpu_req": 3,
+      "mem_req": 5,
+      "duration": 5
+    },
+    {
+      "task_id": 27,
+      "revenue": 173.71,
+      "deadline": 11,
+      "priority": 1.0,
+      "min_service_level": 0.34,
+      "cpu_req": 15,
+      "mem_req": 5,
+      "duration": 6
+    },
+    {
+      "task_id": 28,
+      "revenue": 147.67,
+      "deadline": 9,
+      "priority": 1.0,
+      "min_service_level": 0.32,
+      "cpu_req": 12,
+      "mem_req": 59,
+      "duration": 4
+    },
+    {
+      "task_id": 29,
+      "revenue": 232.27,
+      "deadline": 19,
+      "priority": 1.5,
+      "min_service_level": 0.16,
+      "cpu_req": 7,
+      "mem_req": 25,
+      "duration": 4
+    },
+    {
+      "task_id": 30,
+      "revenue": 229.45,
+      "deadline": 9,
+      "priority": 1.0,
+      "min_service_level": 0.26,
+      "cpu_req": 7,
+      "mem_req": 19,
+      "duration": 6
+    },
+    {
+      "task_id": 31,
+      "revenue": 229.44,
+      "deadline": 12,
+      "priority": 1.0,
+      "min_service_level": 0.47,
+      "cpu_req": 4,
+      "mem_req": 23,
+      "duration": 5
+    },
+    {
+      "task_id": 32,
+      "revenue": 157.09,
+      "deadline": 22,
+      "priority": 2.0,
+      "min_service_level": 0.44,
+      "cpu_req": 2,
+      "mem_req": 14,
+      "duration": 5
+    },
+    {
+      "task_id": 33,
+      "revenue": 65.91,
+      "deadline": 20,
+      "priority": 1.0,
+      "min_service_level": 0.26,
+      "cpu_req": 4,
+      "mem_req": 10,
+      "duration": 5
+    },
+    {
+      "task_id": 34,
+      "revenue": 171.44,
+      "deadline": 11,
+      "priority": 1.5,
+      "min_service_level": 0.09,
+      "cpu_req": 3,
+      "mem_req": 4,
+      "duration": 7
+    },
+    {
+      "task_id": 35,
+      "revenue": 256.81,
+      "deadline": 6,
+      "priority": 1.5,
+      "min_service_level": 0.2,
+      "cpu_req": 10,
+      "mem_req": 38,
+      "duration": 4
+    },
+    {
+      "task_id": 36,
+      "revenue": 54.94,
+      "deadline": 12,
+      "priority": 1.5,
+      "min_service_level": 0.33,
+      "cpu_req": 2,
+      "mem_req": 27,
+      "duration": 5
+    },
+    {
+      "task_id": 37,
+      "revenue": 360.75,
+      "deadline": 24,
+      "priority": 1.0,
+      "min_service_level": 0.27,
+      "cpu_req": 15,
+      "mem_req": 38,
+      "duration": 7
+    },
+    {
+      "task_id": 38,
+      "revenue": 107.72,
+      "deadline": 6,
+      "priority": 1.0,
+      "min_service_level": 0.25,
+      "cpu_req": 7,
+      "mem_req": 38,
+      "duration": 6
+    },
+    {
+      "task_id": 39,
+      "revenue": 239.53,
+      "deadline": 4,
+      "priority": 1.0,
+      "min_service_level": 0.25,
+      "cpu_req": 5,
+      "mem_req": 59,
+      "duration": 4
+    },
+    {
+      "task_id": 40,
+      "revenue": 130.08,
+      "deadline": 12,
+      "priority": 2.0,
+      "min_service_level": 0.24,
+      "cpu_req": 7,
+      "mem_req": 58,
+      "duration": 7
+    },
+    {
+      "task_id": 41,
+      "revenue": 252.59,
+      "deadline": 4,
+      "priority": 1.0,
+      "min_service_level": 0.25,
+      "cpu_req": 9,
+      "mem_req": 30,
+      "duration": 4
+    },
+    {
+      "task_id": 42,
+      "revenue": 206.21,
+      "deadline": 9,
+      "priority": 1.0,
+      "min_service_level": 0.32,
+      "cpu_req": 6,
+      "mem_req": 63,
+      "duration": 6
+    },
+    {
+      "task_id": 43,
+      "revenue": 155.71,
+      "deadline": 18,
+      "priority": 2.0,
+      "min_service_level": 0.19,
+      "cpu_req": 2,
+      "mem_req": 47,
+      "duration": 5
+    },
+    {
+      "task_id": 44,
+      "revenue": 176.68,
+      "deadline": 8,
+      "priority": 2.0,
+      "min_service_level": 0.04,
+      "cpu_req": 10,
+      "mem_req": 40,
+      "duration": 6
+    },
+    {
+      "task_id": 45,
+      "revenue": 145.38,
+      "deadline": 19,
+      "priority": 1.0,
+      "min_service_level": 0.47,
+      "cpu_req": 14,
+      "mem_req": 24,
+      "duration": 2
+    },
+    {
+      "task_id": 46,
+      "revenue": 66.17,
+      "deadline": 21,
+      "priority": 2.0,
+      "min_service_level": 0.07,
+      "cpu_req": 11,
+      "mem_req": 6,
+      "duration": 7
+    },
+    {
+      "task_id": 47,
+      "revenue": 160.24,
+      "deadline": 10,
+      "priority": 1.5,
+      "min_service_level": 0.35,
+      "cpu_req": 12,
+      "mem_req": 45,
+      "duration": 3
+    },
+    {
+      "task_id": 48,
+      "revenue": 252.34,
+      "deadline": 5,
+      "priority": 1.0,
+      "min_service_level": 0.31,
+      "cpu_req": 8,
+      "mem_req": 32,
+      "duration": 3
+    },
+    {
+      "task_id": 49,
+      "revenue": 286.21,
+      "deadline": 21,
+      "priority": 1.5,
+      "min_service_level": 0.35,
+      "cpu_req": 13,
+      "mem_req": 61,
+      "duration": 2
+    }
+  ],
+  "vm_types": [
+    {
+      "vm_id": 0,
+      "hourly_cost": 0.97,
+      "cpu_cap": 7,
+      "mem_cap": 10,
+      "max_instances": 10,
+      "vm_name": "Small"
+    },
+    {
+      "vm_id": 1,
+      "hourly_cost": 2.72,
+      "cpu_cap": 9,
+      "mem_cap": 17,
+      "max_instances": 10,
+      "vm_name": "Medium"
+    },
+    {
+      "vm_id": 2,
+      "hourly_cost": 4.08,
+      "cpu_cap": 21,
+      "mem_cap": 48,
+      "max_instances": 10,
+      "vm_name": "Large"
+    },
+    {
+      "vm_id": 3,
+      "hourly_cost": 6.08,
+      "cpu_cap": 29,
+      "mem_cap": 62,
+      "max_instances": 10,
+      "vm_name": "XLarge"
+    },
+    {
+      "vm_id": 4,
+      "hourly_cost": 8.52,
+      "cpu_cap": 36,
+      "mem_cap": 96,
+      "max_instances": 10,
+      "vm_name": "2XLarge"
+    }
+  ],
+  "system_config": {
+    "budget": 2000.0,
+    "time_horizon": 24,
+    "num_tasks": 50,
+    "num_vm_types": 5
+  },
+  "metadata": {
+    "seed": 42,
+    "generated_at": "2026-02-12T19:19:55.307067"
+  }
+}

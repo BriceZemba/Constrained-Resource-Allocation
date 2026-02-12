@@ -1,0 +1,6 @@
+{
+  "budget": 500.0,
+  "time_horizon": 12,
+  "num_tasks": 20,
+  "num_vm_types": 3
+}

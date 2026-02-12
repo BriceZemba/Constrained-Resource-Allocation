@@ -1,0 +1,25 @@
+# Resource Allocation Optimization Project
+# Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core optimization framework
+pyomo>=6.4.0
+
+# Solvers (at least one required)
+# Note: GLPK is recommended for open-source use
+# Install via: apt-get install glpk-utils (Ubuntu/Debian) or brew install glpk (MacOS)
+
+# Data manipulation and analysis
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.62.0  # Progress bars
+
+# Optional: For better performance with large MILP problems
+# gurobipy>=9.5.0  # Requires Gurobi license
+# cplex>=20.1.0    # Requires CPLEX license
